@@ -69,7 +69,7 @@ gem 'elasticsearch'
 gem 'faraday_middleware-aws-signers-v4'
 gem "money-tree"
 gem "bitcoin-ruby", require: "bitcoin"
-gem "rails_admin"
+gem "rails_admin", ">= 1.2.0"
 gem "digest-sha3"
 gem "rpush"
 gem "oj", "~> 3.6.0"
