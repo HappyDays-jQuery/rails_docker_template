@@ -30,7 +30,7 @@ gem 'aws-sdk-rails', '~> 1.0'
 gem 'aws-ses', require: 'aws/ses'
 gem 'fluent-logger'
 gem 'lograge'
-gem 'carrierwave'
+gem 'carrierwave', '>= 1.0.0'
 gem 'fog'
 gem 'rmagick', require: "RMagick"
 gem 'newrelic_rpm'

@@ -93,10 +93,9 @@ GEM
     capistrano-sidekiq (0.5.3)
       capistrano
       sidekiq
-    carrierwave (0.10.0)
-      activemodel (>= 3.2.0)
-      activesupport (>= 3.2.0)
-      json (>= 1.7)
+    carrierwave (1.2.2)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
       mime-types (>= 1.16)
     checkstyle_filter-git (1.1.0)
       git_diff_parser
@@ -806,7 +805,7 @@ DEPENDENCIES
   capistrano
   capistrano-rails
   capistrano-sidekiq
-  carrierwave
+  carrierwave (>= 1.0.0)
   checkstyle_filter-git
   coffee-rails (~> 4.2.1)
   daemons (~> 1.2.6)
