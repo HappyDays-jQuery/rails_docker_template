@@ -1,35 +1,35 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.10'
+gem 'rails', '5.2.6.2'
 gem 'mysql2', '~> 0.3.20'
 gem 'sass-rails', '5.0.6'
 gem 'uglifier', '>= 2.7.2'
-gem 'coffee-rails', '~> 4.2.1'
-gem 'jquery-rails'
+gem 'coffee-rails', '~> 4.2.2'
+gem 'jquery-rails', '>= 4.3.3'
 gem 'spring',        group: :development
 gem 'bcrypt', '~> 3.1.7'
 gem "sprockets", "2.12.4"
 gem 'jbuilder'
 gem 'therubyracer',  platforms: :ruby
 gem 'unicorn'
-gem 'google-authenticator-rails'
+gem 'google-authenticator-rails', '>= 1.4.1'
 gem 'settingslogic'
-gem 'gon'
+gem 'gon', '>= 5.1.0'
 gem 'daemons', '~> 1.2.6'
 gem 'delayed_job_active_record'
-gem 'sidekiq'
-gem 'capistrano-sidekiq'
-gem 'sidekiq-failures'
+gem 'sidekiq', '>= 6.4.0'
+gem 'capistrano-sidekiq', '>= 0.5.3'
+gem 'sidekiq-failures', '>= 0.4.4'
 gem 'btce'
-gem 'redis-rails', "~>5.0.2"
+gem 'redis-rails', '~> 5.0.2'
 gem 'hiredis'
 gem 'redis-namespace'
 gem 'whenever'
 gem 'aws-sdk', '~>2'
-gem 'aws-sdk-rails', '~> 1.0'
+gem 'aws-sdk-rails', '~> 1.0', '>= 1.0.1'
 gem 'aws-ses', require: 'aws/ses'
 gem 'fluent-logger'
-gem 'lograge'
+gem 'lograge', '>= 0.9.0'
 gem 'carrierwave', '>= 1.0.0'
 gem 'fog'
 gem 'rmagick', require: "RMagick"
@@ -46,7 +46,7 @@ gem 'twilio-ruby'
 gem 'phone'
 gem 'houston'
 gem 'i18n-tasks'
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.6'
 gem 'zendesk_api'
 gem 'selenium-webdriver'
 gem 'capistrano'
@@ -69,9 +69,9 @@ gem 'elasticsearch'
 gem 'faraday_middleware-aws-signers-v4'
 gem "money-tree"
 gem "bitcoin-ruby", require: "bitcoin"
-gem "rails_admin", ">= 1.2.0"
+gem "rails_admin", ">= 1.3.0"
 gem "digest-sha3"
-gem "rpush"
+gem "rpush", ">= 2.7.0"
 gem "oj", "~> 3.6.0"
 gem "similar_text"
 gem "autoprefixer-rails"
@@ -82,16 +82,16 @@ gem "netaddr"
 gem "rubyzip"
 gem 'kaminari'
 gem 'redcarpet'
-gem 'weak_parameters'
+gem 'weak_parameters', '>= 0.4.2'
 gem 'base_x'
 gem "switch_point"
 gem 'holiday_japan'
-gem 'letter_opener_web'
+gem 'letter_opener_web', '>= 1.3.4'
 group :development do
   gem 'foreman'
   gem 'guard-rubocop'
   gem 'terminal-notifier-guard', '1.6.4'
-  gem 'web-console', ">= 3.3.0"
+  gem 'web-console', '>= 3.3.0'
 end
 
 group :development, :test do
@@ -110,8 +110,8 @@ group :development, :test do
 end
 
 group :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails', '>= 3.7.1'
+  gem 'factory_girl_rails', '>= 4.4.1'
   gem 'guard-rspec'
   gem 'spring-commands-rspec'
   gem 'rspec-its'
